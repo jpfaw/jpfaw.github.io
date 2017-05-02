@@ -13,6 +13,7 @@ body {
     font-size: 14px;
     font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
     line-height: 1.6;
+    background-color: aliceblue;
 }
 
 header {
@@ -257,6 +258,8 @@ td {
     margin-bottom: 0.5em;
     border-radius: 5px;
 }
+
+/* LINKのボタン */
 
 .btnTwitter a {
     display: block;

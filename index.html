@@ -45,16 +45,6 @@
                 navImgCustom: false,
                 navImgSuffix: ''
             });
-            $('a[href^=#]').click(function() {
-                var speed = 400; // ミリ秒
-                var href = $(this).attr("href");
-                var target = $(href == "#" || href == "" ? 'html' : href);
-                var position = target.offset().top;
-                $('body,html').animate({
-                    scrollTop: position
-                }, speed, 'swing');
-                return false;
-            });
         });
 
     </script>
@@ -93,7 +83,7 @@
             作成途中のWebSiteです。
             <br>ページのデザイン崩れや正しくない情報が含まれている可能性があります。
             <br>ゴールデンウィーク中には完成させたい（完成させるとは言ってない）
-            <br><p style="text-align: right">更新日：2017/5/1 23:00</p>
+            <br><p style="text-align: right">更新日：2017/5/2 22:00</p>
         </div>
         <h2>
             <div id="intro">自己紹介</div>
@@ -124,7 +114,9 @@
             <br> C#
             <br> HTML
             <br> CSS
-            <br> JavaScript <span class="label label-danger">学習中</span><br> PHP <span class="label label-danger">学習中</span><br>
+            <br> JavaScript <span class="label label-danger">学習中</span>
+            <br> PHP <span class="label label-danger">学習中</span><br>
+            <br> Python <span class="label label-danger">学習予定</span><br>
         </p>
         <br>
 
@@ -142,7 +134,7 @@
         <p class="btnFacebook"><a href="https://ja-jp.facebook.com/people/%E7%9F%B3%E6%88%B8%E9%9B%84%E5%A4%AA/100009637267138">FaceBook</a></p>
 
         <footer>
-            <p>更新日：2017/5/1 23:00</p>
+            <p>更新日：上部に記載</p>
             <div><small>© 2017 jpfaw</small></div>
         </footer>
 
