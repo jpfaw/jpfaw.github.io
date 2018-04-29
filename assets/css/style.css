@@ -151,6 +151,33 @@ td {
     border: 1px solid #ddd;
 }
 
+section {
+    border-radius: 20px;
+	padding: 20px;
+	margin: 10px 7px;
+	background: #fff;	
+}
+
+section h1 {
+	margin: 0px 0px 0.2em;
+	padding: 0px;
+	font-size: 200%;
+    text-align: center;
+}
+
+section h2 {
+	margin: 0px 10px -15px;
+	padding: 8px;
+	font-size: 150%;
+    font-weight: bold;
+}
+
+section p {
+	margin: 0.5em 20px;
+	padding: 0px;
+	font-size: 130%;
+}
+
 
 /*================================================
  *  汎用クラス
@@ -192,7 +219,6 @@ td {
 .imgR {
     clear: both;
     overflow: hidden;
-    margin-bottom: 50px;
 }
 
 .imgR img {
