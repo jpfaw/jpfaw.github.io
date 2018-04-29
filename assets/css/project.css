@@ -6,8 +6,8 @@ header {
 	text-align: center;
 	color: #000;
 	background: #ffd3e1;
-	font-size: 3vw;
-	margin-top: 60px;
+	font-size: 7vw;
+	margin-top: 40px;
 	padding: 40px;
 }
 
@@ -16,8 +16,9 @@ article {
 }
 
 section {
-	padding: 30px;
-	margin: 20px 0px;
+    border-radius: 20px;
+	padding: 20px;
+	margin: 10px 7px;
 	background: #fff;	
 }
 
@@ -46,13 +47,13 @@ article section h1 {
 }
 
 article section h2 {
-	margin: 0px 20px -15px;
-	padding: 0px;
+	margin: 0px 10px -15px;
+	padding: 8px;
 	font-size: 150%;
 }
 
 article section p {
-	margin: 1em 20px;
+	margin: 0.5em 20px;
 	padding: 0px;
 	font-size: 130%;
 }
