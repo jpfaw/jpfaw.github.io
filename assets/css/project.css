@@ -1,0 +1,128 @@
+body {
+	background: #c6effd;
+}
+
+header {
+	text-align: center;
+	color: #000;
+	background: #ffd3e1;
+	font-size: 7vw;
+	margin-top: 40px;
+	padding: 40px;
+}
+
+article {
+	padding: 0px;
+}
+
+section {
+    border-radius: 20px;
+	padding: 20px;
+	margin: 10px 7px;
+	background: #fff;	
+}
+
+article section dl {
+	margin: 0px 10px 0.2em;
+	padding: 0px;
+	font-size: 130%;
+}
+
+article section dt {
+	margin: 0px 10px 0.2em;
+	padding: 0px;
+	font-size: 100%;
+}
+
+article section ul {
+	margin: 0px 40px 0.2em;
+	padding: 0px;
+	font-size: 120%;
+}
+
+article section h1 {
+	margin: 0px 0px 0.2em;
+	padding: 0px;
+	font-size: 200%;
+}
+
+article section h2 {
+	margin: 0px 10px -15px;
+	padding: 8px;
+	font-size: 150%;
+}
+
+article section p {
+	margin: 0.5em 20px;
+	padding: 0px;
+	font-size: 130%;
+}
+
+img {
+	max-width: 300px;
+	max-height: 300px;
+	margin:1em;
+}
+
+.Adjustment {
+	clear: both;
+}
+
+.References {
+	background: #ddd;
+}
+
+.ResearchDetails {
+    margin: -20px 0px 0.2em 40px;
+    font-size: 110%;
+}
+
+footer {
+	clear:both;
+	text-align: center;
+	padding: 5px;
+	background: #eed8ea;
+	color: #000;
+}
+
+/*================================================
+ *  グローバルナビゲーション
+ ================================================*/
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    opacity: 0.8;
+    background: #000;
+    z-index: 10;
+}
+
+nav ul {
+    position: relative;
+    float: left;
+    left: 50%;
+    margin: 0;
+}
+
+nav li {
+    position: relative;
+    left: -50%;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0 20px;
+}
+
+nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #dfdfdf;
+    text-decoration: underline;
+    ;
+}
